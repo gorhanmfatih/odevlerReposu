@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header {margin: 1rem;}
+header h1 {color: #B33030;}
+
+nav {margin: 10px 0; }
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: #606060;
+}
+nav a:hover{
+    color: #B33030;
+    transition: ease-in-out 0.5s;
+}
+article h1,h2,h3 {
+    color:sienna ;
+}
+
+article ul,ol {
+    list-style-position: inside
+}
+
+.solaYasla {
+    float: left;
+    text-align: left;
+}
